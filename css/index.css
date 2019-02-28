@@ -168,6 +168,16 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+nav {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+}
+nav a {
+  text-decoration: none;
+  color: #212529;
+  font-size: 1.6rem;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -179,12 +189,25 @@ img {
   font-size: 1.6rem;
   padding: 20px;
 }
-.home header .top-page {
+header {
+  width: 1000px;
+  margin: 0 auto;
+  border-bottom: 2px dashed #C0C0C0;
+}
+header .top-page {
+  width: 800px;
+  margin: 0 auto;
   display: flex;
-  width: 100%;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px dashed #C0C0C0;
+  margin-bottom: 20px;
+}
+.fun-bus-image {
+  margin-bottom: 20px;
+}
+.home {
+  width: 50%;
+  margin: 0 auto;
 }
 .home .content-section {
   margin: 30px 0;
