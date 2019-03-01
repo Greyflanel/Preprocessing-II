@@ -1,4 +1,4 @@
-.dash-border {
+.dashed-border {
   border-bottom: 2px dashed #C0C0C0;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -182,15 +182,16 @@ nav a {
   font-size: 1.6rem;
 }
 .footer {
-  width: 100%;
+  width: 54%;
+  margin: 0 auto;
   border-top: 2px dashed silver;
   background: #FFEBCD;
+  height: 70px;
 }
 .footer p {
   text-align: center;
   color: #212529;
   font-size: 1.6rem;
-  padding: 20px;
 }
 header {
   width: 1000px;
@@ -260,4 +261,13 @@ header .top-page {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .destination .btn {
+  color: #FFFFFF;
+  background: #17A2B8;
+  width: 200px;
+  line-height: 45px;
+  border-radius: 20px;
+  font-size: 1.6rem;
+  text-align: center;
 }
