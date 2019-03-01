@@ -1,3 +1,6 @@
+.dash-border {
+  border-bottom: 2px dashed #C0C0C0;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -201,6 +204,9 @@ header .top-page {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+}
+.introduction {
+  border-bottom: 2px dashed #C0C0C0;
 }
 .fun-bus-image {
   margin-bottom: 20px;
